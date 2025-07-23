@@ -30,4 +30,5 @@ dependencies = [
     "cohere>=5.16.1",
     "unstructured>=0.18.9",
     "markdown>=3.8.2",
+    "fastmcp>=2.10.6",
 ]
