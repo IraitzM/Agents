@@ -15,7 +15,7 @@ We will explore how agents can be implemented using different technologies:
 
 In order to perform actions programmatically we will be using a set of tools and resources.
 
-* [Tavily](https://www.tavily.com/) for online search
+* [Tavily](https://www.tavily.com/) for online search (or [Serper](https://serper.dev/))
 * [LangSmith](https://smith.langchain.com/) for agent action tracing
 * [LanceDB](lancedb.com) for embedding storage and retrieval
 

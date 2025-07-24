@@ -31,4 +31,5 @@ dependencies = [
     "unstructured>=0.18.9",
     "markdown>=3.8.2",
     "fastmcp>=2.10.6",
+    "faiss-cpu>=1.11.0.post1",
 ]
