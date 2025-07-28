@@ -8,8 +8,6 @@ We will explore how agents can be implemented using different technologies:
 
 * [LangChain](https://www.langchain.com/)
 * [Agno](https://github.com/agno-agi/agno)
-* [CrewAI](https://www.crewai.com/)
-* [Pydantic AI](https://ai.pydantic.dev/)
 
 ## Tools & resources
 
@@ -17,7 +15,7 @@ In order to perform actions programmatically we will be using a set of tools and
 
 * [Tavily](https://www.tavily.com/) for online search (or [Serper](https://serper.dev/))
 * [LangSmith](https://smith.langchain.com/) for agent action tracing
-* [LanceDB](lancedb.com) for embedding storage and retrieval
+* [LanceDB](lancedb.com) and [FAISS](https://faiss.ai/) for embedding storage and retrieval
 
 ## Credentials
 
