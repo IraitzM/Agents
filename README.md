@@ -19,7 +19,7 @@ In order to perform actions programmatically we will be using a set of tools and
 
 ## Credentials
 
-Make sure you have some Gemini credentials ready to test the examples. Take _.env.example_ file to create your own _.env_ file.
+Make sure you have some Gemini credentials ready to test the examples. Take _.env.example_ file to create your own _.env_ file. Some extra bits on self-hosted infra are shown but this may require performant hardware on you end so we will show most of the exercises based on Gemini subscriptions.
 
 ## Environment
 
