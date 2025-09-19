@@ -1,6 +1,6 @@
+from agno.os import AgentOS
 from agno.agent import Agent
 from agno.models.openai import OpenAIChat
-from agno.os import AgentOS
 
 from dotenv import load_dotenv, find_dotenv
 
