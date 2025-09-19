@@ -1,0 +1,5 @@
+agno>=2.0.3
+fastapi[standard]
+uvicorn
+openai
+python-dotenv
