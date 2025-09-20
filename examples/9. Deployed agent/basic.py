@@ -21,6 +21,7 @@ basic_agent = Agent(
     add_datetime_to_context=True,
     markdown=True,
 )
+
 basic_team = Team(
     id="basic-team",
     name="Basic Team",
@@ -28,6 +29,7 @@ basic_team = Team(
     members=[basic_agent],
     enable_user_memories=True,
 )
+
 basic_workflow = Workflow(
     id="basic-workflow",
     name="Basic Workflow",
