@@ -1,0 +1,5 @@
+agno
+fastapi[standard]
+uvicorn
+openai
+python-dotenv
