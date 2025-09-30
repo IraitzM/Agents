@@ -15,7 +15,7 @@ dependencies = [
     "ipykernel>=6.30.0",
     "langchain-google-genai>=2.1.8",
     "langchain-tavily>=0.2.10",
-    "agno>=2.0.5",
+    "agno>=2.0.7",
     "google-genai>=1.26.0",
     "ipywidgets>=8.1.7",
     "lancedb>=0.24.1",
@@ -37,6 +37,7 @@ dependencies = [
     "lxml-html-clean>=0.4.2",
     "surrealdb>=1.0.6",
     "vllm>=0.10.2",
+    "ddgs>=9.6.0",
 ]
 
 [dependency-groups]
