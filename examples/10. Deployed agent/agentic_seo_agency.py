@@ -55,14 +55,14 @@ strategist = Agent(
 )
 
 # Team
-seon_team = Team(
+seo_team = Team(
     name="SEO improving content creation team",
     model=Gemini(id="gemini-2.5-flash", temperature=0.3),
     members=[seo_analyst, strategist],
     tools=[ReasoningTools(add_instructions=True)],
     instructions=[
         "Collaborate to provide comprehensive SEO improving insights",
-        "Consider both fundamental analysis and market sentiment",
+        "Consider both keyword research and content quality",
         "Use an engaging language to provide guidance to the user asking the questions",
         "Present findings in a structured, easy-to-follow format",
         "Only output the final consolidated response, not individual agent responses",
@@ -76,7 +76,7 @@ seon_team = Team(
 agent_os = AgentOS(
     description="My custom SEO agency",
     agents=[seo_analyst, strategist],
-    teams=[seon_team],
+    teams=[seo_team],
     workflows=[],
 )
 app = agent_os.get_app()
