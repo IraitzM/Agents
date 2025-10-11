@@ -38,6 +38,9 @@ dependencies = [
     "surrealdb>=1.0.6",
     "vllm>=0.10.2",
     "ddgs>=9.6.0",
+    # "agentops>=0.4.21",
+    "langfuse>=3.6.2",
+    "openlit>=1.35.5",
 ]
 
 [dependency-groups]
