@@ -24,6 +24,14 @@ from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv(), override=True)
 
+# --- Observability ---
+import openlit
+from langfuse import get_client
+
+# Instrument code
+langfuse = get_client()
+openlit.init(tracer=langfuse._otel_tracer, disable_batch=True)
+
 # --- Tools ---
 search = TavilyTools(
     include_answer=True,
